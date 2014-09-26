@@ -6,4 +6,6 @@ Repo containing CSC 170 labs
 * Lab 3
 * Lab 4
 
+* Project 1
+
 Nicholas Graham
