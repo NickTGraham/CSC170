@@ -30,6 +30,7 @@ ol, ul {
 
 a:link {
   color: #7D9C9F;
+  text-decoration:none;
 }
 
 a:hover {
