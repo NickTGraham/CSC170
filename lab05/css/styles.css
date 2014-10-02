@@ -52,7 +52,11 @@ a:hover {
   width: 70%;
   padding: 10px;
 }
-
+.container{
+  margin: 0 auto;
+  width: 80%;
+  max-width: 960px;
+}
 img {
   width: 75%;
 }
