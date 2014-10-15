@@ -1,0 +1,30 @@
+body {
+	background-color: #EEFAFA;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	padding: 15px 0;
+	background-image: url(../images/header_bg.jpg);
+}
+
+.container {
+	margin: 0 auto;
+	width: 80%;
+	max-width: 960px;
+}
+
+.fill {
+	width: 100%;
+}
+
+h1 {
+	margin: 0;
+	font-size: 20px;
+	color: white;
+}
+
+h2 { margin-bottom: 0; }
+
+p { margin-top: 0; }
