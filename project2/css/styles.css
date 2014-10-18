@@ -27,7 +27,11 @@ ol, ul {
 }
 a:link {
   color: #33f6fe;
-  text-decoration:none;
+  text-decoration: none;
+}
+a:visited{
+  color: #48e898;
+  text-decoration: none;
 }
 p{
   margin-top: 0;
