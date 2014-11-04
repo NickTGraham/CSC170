@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Lab 9 - HTML Forms</title>
+</head>
+
+<body>
+  <h1>Contact Form</h1>
+  <form method="post" action="form-processor.php">
+    <label for="name">Name</label><input type="text" name="name" id="name"><br>
+    <label for="email">Email</label><input type="email" name="email" id="email"><br>
+    <label for="tel">Telephone</label><input type="tel" name="tel" id="tel"><br>
+
+    <fieldset>
+      <legend>Browsers</legend>
+      What browsers do you use?<br>
+      <input type="checkbox" name="firefox" id="firefox" value="firefox"><label for="firefox">Firefox</label><br>
+      <input type="checkbox" name="chrome" id="chrome" value="chrome"><label for="chrome">Chrome</label><br>
+      <input type="checkbox" name="safari" id="safari" value="safari"><label for="safari">Safari</label><br>
+      <input type="checkbox" name="ie" id="ie" value="ie"><label for="ie">Internet Explorer</label><br>
+
+      <br>
+      Which is your favorite browser?<br>
+      <input type="radio" name="fav-browser" id="fav-firefox" value="firefox"><label for="fav-firefox">Firefox</label><br>
+      <input type="radio" name="fav-browser" id="fav-chrome" value="chrome"><label for="fav-chrome">Chrome</label><br>
+      <input type="radio" name="fav-browser" id="fav-safari" value="safari"><label for="fav-safari">Safari</label><br>
+      <input type="radio" name="fav-browser" id="fav-ie" value="ie"><label for="fav-ie">Internet Explorer</label><br>
+    </fieldset>
+
+    <label for="comments">Comments:</label><br><textarea name="comments" id="comments" cols=50 rows=10></textarea><br>
+    <input type="submit" name="send" value="Send">
+  </form>
+</body>
+</html>
