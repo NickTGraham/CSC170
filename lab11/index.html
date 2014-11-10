@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+<div class="container">
+	<h1>JavaScript Examples</h1>
+
+	<div class="box">
+
+		<h2>Mouseover</h2>
+		<p>This is an example of inline JavaScript using "event attributes" like <strong>onmouseover</strong> and <strong>onmouseout</strong>.</p>
+		<figure>
+      <img src="images/cat1.jpg" onmouseover="this.src='images/cat2.jpg'" onmouseout="this.src='images/cat1.jpg'" alt="cat 1">
+			<figcaption>Hover your mouse over this image</figcaption>
+		</figure>
+
+	</div><!--.box-->
+
+	<div class="box">
+
+		<h2>window.open()</h2>
+		<p>This is an example of inline JavaScript <strong>onclick</strong> which calls a function that uses the <a href="http://www.w3schools.com/jsref/met_win_open.asp" target="_blank">window.open()</a> method.</p>
+		<figure>
+      <img src="images/cat1.jpg" alt="Cat 1" onclick="openAnotherPic()">
+			<!-- PART 4: Embed an image element here than executes a function named "openAnotherPic()" when the image is clicked... -->
+
+			<figcaption>Click this image</figcaption>
+		</figure>
+
+	</div><!--.box-->
+
+	<div class="box">
+
+		<h2>Example: JavaScript getElementById()</h2>
+		<p>This is an example of JavaScript grabbing an element in the DOM and altering its properties.</p>
+		<figure>
+			<img id="hiddenpic" src="images/cat1.jpg" alt="cat 1">
+			<button id="hidebutton">Click to show/hide the kitty</button>
+		</figure>
+
+	</div><!--.box-->
+
+</div><!--.container-->
+
+<!-- PART 2: link to an external script file here... -->
+<script src="js/scripts.js"></script>
+
+<script>
+  alert("This is an Alert Box!")
+
+</script>
+
+</body>
+</html>
