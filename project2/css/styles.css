@@ -64,11 +64,14 @@ li{
   padding-bottom: 8px;
 }
 aside{
+  z-index: 0;
   display: table-cell;
   width: 40%;
   padding: 10px;
 }
 article{
+  vertical-align:top;
+  z-index: 2;
   display: table-cell;
   width: 60%;
   padding: 10px;
