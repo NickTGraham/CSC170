@@ -21,11 +21,21 @@
   width: auto;
   border: none;
 }
+.overview {
+  border: solid 1px black;
+  padding: 2px;
+  margin: 1px;
+}
+.overview img{
+  float: right;
+  width: 20%;
+  /*max-height: 160px;*/
+  border: none;
+}
 header{
   /*display: inline-block;*/
 }
 header a {
-
   display: inline;
 }
 header h1{
