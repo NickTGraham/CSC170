@@ -8,26 +8,16 @@
 	</head>
 
 	<body class="container">
-		<div class="top">
-			<header>
-				<a href="index.html">
-					<h1>
-						<img src="images/logo.png" alt="logo" class="logo-img">
-						Nicholas Graham
-					</h1>
-				</a>
-				CSC 170 - Web Design and Development
-			</header>
+		<?php include "inc/header.inc"; ?>
 			<nav>
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="aaron.html">Aaron Swartz</a></li>
-					<li><a href="radia.html">Radia Pearlman</a></li>
-					<li><a href="marissa.html">Marissa Mayer</a></li>
-					<li><a href="alan.html" class="current">Alan Turing</a></li>
+					<li><a href="index.php">Home</a></li>
+					<li><a href="aaron.php">Aaron Swartz</a></li>
+					<li><a href="radia.php">Radia Pearlman</a></li>
+					<li><a href="marissa.php">Marissa Mayer</a></li>
+					<li><a href="alan.php" class="current">Alan Turing</a></li>
 				</ul>
 			</nav>
-		</div><!--top-->
 
 		<article>
 		<div>
@@ -143,8 +133,6 @@
 				</section>
 			</article>
 		</div>
-		<footer>
-			Nicholas Graham, CSC 170 Project 3
-		</footer>
+		<?php include "inc/footer.inc"; ?>
 	</body>
 </html>

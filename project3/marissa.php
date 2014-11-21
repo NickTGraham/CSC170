@@ -7,26 +7,16 @@
 	</head>
 
 	<body class="container">
-				<div class="top">
-					<header>
-						<a href="index.html">
-							<h1>
-								<img src="images/logo.png" alt="logo" class="logo-img">
-								Nicholas Graham
-							</h1>
-						</a>
-						CSC 170 - Web Design and Development
-					</header>
+		<?php include "inc/header.inc"; ?>
 					<nav>
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="aaron.html">Aaron Swartz</a></li>
-							<li><a href="radia.html">Radia Pearlman</a></li>
-							<li><a href="marissa.html" class="current">Marissa Mayer</a></li>
-							<li><a href="alan.html">Alan Turing</a></li>
+							<li><a href="index.php">Home</a></li>
+							<li><a href="aaron.php">Aaron Swartz</a></li>
+							<li><a href="radia.php">Radia Pearlman</a></li>
+							<li><a href="marissa.php" class="current">Marissa Mayer</a></li>
+							<li><a href="alan.php">Alan Turing</a></li>
 						</ul>
 					</nav>
-				</div><!--top-->
 
 		<header>
 			<h2>Marissa Mayer</h2>
@@ -223,8 +213,6 @@
 				<li><a href="http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001550608&amp;type=&amp;dateb=&amp;owner=only&amp;count=100">"Yahoo Finances."</a> EDGAR Search Results. EDGAR, n.d. Web. 15 Oct. 2014.</li>
 			</ol>
 		</footer>
-		<footer>
-			Nicholas Graham, CSC 170 Project 3
-		</footer>
+		<?php include "inc/footer.inc"; ?>
 	</body>
 </html>

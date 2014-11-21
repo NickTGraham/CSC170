@@ -11,26 +11,16 @@
 </head>
 
 <body class="container">
-  <div class="top">
-    <header>
-      <a href="index.html">
-        <h1>
-          <img src="images/logo.png" alt="logo" class="logo-img">
-          Nicholas Graham
-        </h1>
-      </a>
-      CSC 170 - Web Design and Development
-    </header>
+  <?php include "inc/header.inc"; ?>
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="aaron.html" class="current">Aaron Swartz</a></li>
-        <li><a href="radia.html">Radia Pearlman</a></li>
-        <li><a href="marissa.html">Marissa Mayer</a></li>
-        <li><a href="alan.html">Alan Turing</a></li>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="aaron.php" class="current">Aaron Swartz</a></li>
+        <li><a href="radia.php">Radia Pearlman</a></li>
+        <li><a href="marissa.php">Marissa Mayer</a></li>
+        <li><a href="alan.php">Alan Turing</a></li>
       </ul>
     </nav>
-  </div><!--top-->
   <aside>
     <h2>Aaron Swartz</h2>
     <h3>General Info</h3>
@@ -181,8 +171,7 @@
       <p><a href="http://famouslogos.net/reddit-logo/"><em>Reddit Logo.</em> Digital image. N.p., n.d. Web. 2 Oct. 2014.</a></p>
       <p><a href="http://www.aaronsw.com/">Swartz, Aaron. "Aaron Swartz." <em>Aaron Swartz.</em> N.p., n.d. Web. 29 Sept. 2014.</a></p>
     </div><!--source-->
-    <footer>
-      Nicholas Graham, CSC 170 Project 3
-    </footer>
+
+    <?php include "inc/footer.inc"; ?>
   </body>
   </html>
