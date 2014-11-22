@@ -1,5 +1,5 @@
 <header>
-  <a href="index.html">
+  <a href="index.php">
     <h1>
       <img src="images/logo.png" alt="logo" class="logo-img">
       Nicholas Graham
