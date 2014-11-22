@@ -11,11 +11,13 @@
 		<?php include "inc/header.inc"; ?>
 			<nav>
 				<ul>
-					<li><a href="index.php">Home</a></li>
-					<li><a href="aaron.php">Aaron Swartz</a></li>
-					<li><a href="radia.php">Radia Pearlman</a></li>
-					<li><a href="marissa.php">Marissa Mayer</a></li>
-					<li><a href="alan.php" class="current">Alan Turing</a></li>
+					<ul>
+						<li><a href="index.php" class="current">Home</a></li>
+						<li><a href="aaron-swartz.php">Aaron Swartz</a></li>
+						<li><a href="radia-pearlman.php">Radia Pearlman</a></li>
+						<li><a href="marissa-mayer.php">Marissa Mayer</a></li>
+						<li><a href="alan-turing.php" class="current">Alan Turing</a></li>
+					</ul>
 				</ul>
 			</nav>
 

@@ -21,14 +21,14 @@
   border: none;
 }
 .overview {
+  background-color: #E7F0F9;
   overflow: hidden;
-  border: solid 1px black;
   padding: 2px;
   margin: 1px;
 }
 .overview img{
   float: right;
-  width: 20%;
+  width: 18%;
   border: none;
   padding-left: 3px;
 }
