@@ -14,7 +14,7 @@
 		<?php include "inc/header.inc"; ?>
 			<nav>
 				<ul>
-					<li><a href="index.php" class="current">Home</a></li>
+					<li><a href="index.php">Home</a></li>
 					<li><a href="aaron-swartz.php">Aaron Swartz</a></li>
 					<li><a href="radia-pearlman.php" class="current">Radia Pearlman</a></li>
 					<li><a href="marissa-mayer.php">Marissa Mayer</a></li>
