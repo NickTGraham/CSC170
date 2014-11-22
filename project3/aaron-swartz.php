@@ -12,15 +12,15 @@
 
 <body class="container">
   <?php include "inc/header.inc"; ?>
-    <nav>
-      <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="aaron-swartz.php" class="current">Aaron Swartz</a></li>
-        <li><a href="radia-pearlman.php">Radia Pearlman</a></li>
-        <li><a href="marissa-mayer.php">Marissa Mayer</a></li>
-        <li><a href="alan-turing.php">Alan Turing</a></li>
-      </ul>
-    </nav>
+  <nav>
+    <ul>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="aaron-swartz.php" class="current">Aaron Swartz</a></li>
+      <li><a href="radia-pearlman.php">Radia Pearlman</a></li>
+      <li><a href="marissa-mayer.php">Marissa Mayer</a></li>
+      <li><a href="alan-turing.php">Alan Turing</a></li>
+    </ul>
+  </nav>
   <aside>
     <h2>Aaron Swartz</h2>
     <h3>General Info</h3>
