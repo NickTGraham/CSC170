@@ -8,7 +8,6 @@
   margin: 0 auto;
   width: 80%;
   max-width: 960px;
-  /*min-width: 685px;*/
 }
 .main{
   text-decoration: underline;
@@ -22,6 +21,7 @@
   border: none;
 }
 .overview {
+  overflow: hidden;
   border: solid 1px black;
   padding: 2px;
   margin: 1px;
@@ -29,22 +29,16 @@
 .overview img{
   float: right;
   width: 20%;
-  /*max-height: 160px;*/
   border: none;
+  padding-left: 3px;
 }
-header{
-  /*display: inline-block;*/
-}
+
 header a {
   display: inline;
 }
 header h1{
   border-bottom: none;
   display: inline;
-}
-nav{
-  /*float: right;
-  display: inline-block;*/
 }
 
 nav ul {
