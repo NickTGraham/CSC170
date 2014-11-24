@@ -3,104 +3,123 @@
 <html lang ="en">
 
 <head>
-
   <meta charset="utf-8">
-  <title>Aaron Swartz, Nicholas Graham, ISTE-105 Project 3</title>
+  <title>Aaron Swartz, Nicholas Graham, CSC-170 Project 3</title>
   <link rel="stylesheet" href="css/styles.css">
-
 </head>
 
-<body class="container">
-  <?php include "inc/header.inc"; ?>
-  <nav>
-    <ul>
-      <li><a href="index.php">Home</a></li>
-      <li><a href="aaron-swartz.php" class="current">Aaron Swartz</a></li>
-      <li><a href="radia-pearlman.php">Radia Pearlman</a></li>
-      <li><a href="marissa-mayer.php">Marissa Mayer</a></li>
-      <li><a href="alan-turing.php">Alan Turing</a></li>
-    </ul>
-  </nav>
-  <aside>
-    <h2>Aaron Swartz</h2>
-    <h3>General Info</h3>
-    <figure>
-      <img src="images/aaron.jpg" alt="Aaron Swartz">
-      <figcaption>Aaron Swartz</figcaption>
-    </figure>
-    <p>Aaron Hillel Swartz (November 8, 1986 – January 11, 2013) was an American computer programmer, writer, political organizer and Internet Hacktivist.</p>
+<body>
 
-    <p>Swartz was involved in the development of the web feed format RSS and the Markdown publishing format, the organization Creative Commons, the website framework web.py and the social news site, Reddit, in which he became a partner after its merger with his company, Infogami.</p>
+  <div class="container">
 
-    <p>Swartz's work also focused on sociology, civic awareness and activism. He helped launch the Progressive Change Campaign Committee in 2009 to learn more about effective online activism. In 2010 he became a research fellow at Harvard University's Safra Research Lab on Institutional Corruption, directed by Lawrence Lessig. He founded the online group Demand Progress, known for its campaign against the Stop Online Piracy Act.</p>
+    <?php include "inc/header.inc"; ?>
 
-    <p>On January 6, 2011, Swartz was arrested by MIT police on state breaking-and-entering charges, after systematically downloading academic journal articles from JSTOR. Federal prosecutors later charged him with two counts of wire fraud and 11 violations of the Computer Fraud and Abuse Act, carrying a cumulative maximum penalty of $1 million in fines, 35 years in prison, asset forfeiture, restitution and supervised release.</p>
+    <nav>
+      <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="aaron-swartz.php" class="current">Aaron Swartz</a></li>
+        <li><a href="radia-pearlman.php">Radia Pearlman</a></li>
+        <li><a href="marissa-mayer.php">Marissa Mayer</a></li>
+        <li><a href="alan-turing.php">Alan Turing</a></li>
+      </ul>
+    </nav>
 
-    <p>Swartz declined a plea bargain under which he would serve six months in federal prison. Two days after the prosecution rejected a counter-offer by Swartz, he was found dead in his Brooklyn, New York apartment, where he had hanged himself.</p>
+    <aside>
 
-    <p>In June 2013, Swartz was posthumously inducted into the Internet Hall of Fame. <a href="http://en.wikipedia.org/wiki/Aaron_Swartz">Wikipedia</a></p>
-  </aside>
+      <h2>Aaron Swartz</h2>
 
-  <article>
-    <h3>Background Info</h3>
-    <p>Swartz was born in Chicago, Illinois, the eldest son of Jewish parents Susan and Robert Swartz. His father had founded the software firm Mark Williams Company. Swartz immersed himself in the study of computers, programming, the Internet, and Internet culture. He attended North Shore Country Day School, a small private school near Chicago, until 9th grade. Swartz left high school in the 10th grade, and enrolled in courses at a Chicago area college.</p>
+      <h3>General Info</h3>
 
-    <p>At age 13, Swartz won an ArsDigita Prize, given to young people who create "useful, educational, and collaborative" noncommercial websites. At age 14, he became a member of the working group that authored the RSS 1.0 web syndication specification.</p>
-    <h3>W3C</h3>
-    <p>In 2001, Swartz joined the RDFCore working group at the World Wide Web Consortium (W3C), where he authored RFC 3870, Application/RDF+XML Media Type Registration. The document described a new media type, "RDF/XML", designed to support the Semantic Web.</p>
+      <figure>
+        <img src="images/aaron.jpg" alt="Aaron Swartz">
+        <figcaption>Aaron Swartz</figcaption>
+      </figure>
 
-    <h3>Markown</h3>
-    <p>Swartz was co-creator, with John Gruber, of Markdown, a simplified markup standard derived from HTML, and author of its html2text translator. Markdown remains in widespread use.</p>
+      <p>Aaron Hillel Swartz (November 8, 1986 – January 11, 2013) was an American computer programmer, writer, political organizer and Internet Hacktivist.</p>
 
-    <h3>Buisiness Ventures</h3>
-    <p>Swartz attended Stanford University. After the summer of his freshman year, he attended Y Combinator's first Summer Founders Program where he started the software company Infogami. Infogami's wiki platform was used to support the Internet Archive's Open Library project and the web.py web framework that Swartz had created, but he felt he needed co-founders to proceed further. Y-Combinator organizers suggested that Infogami merge with Reddit, which it did in November 2005. Reddit at first found it difficult to make money from the project, but the site later gained in popularity, with millions of users visiting it each month.</p>
+      <p>Swartz was involved in the development of the web feed format RSS and the Markdown publishing format, the organization Creative Commons, the website framework web.py and the social news site, Reddit, in which he became a partner after its merger with his company, Infogami.</p>
 
-    <figure>
-      <img src="images/reddit.jpg" alt="Reddit Logo">
-      <figcaption>Reddit Logo</figcaption>
-    </figure>
+      <p>Swartz's work also focused on sociology, civic awareness and activism. He helped launch the Progressive Change Campaign Committee in 2009 to learn more about effective online activism. In 2010 he became a research fellow at Harvard University's Safra Research Lab on Institutional Corruption, directed by Lawrence Lessig. He founded the online group Demand Progress, known for its campaign against the Stop Online Piracy Act.</p>
 
-    <p>In October 2006, Reddit was acquired by Condé Nast Publications, the owner of Wired magazine. Swartz moved with his company to San Francisco to work on Wired. Swartz found office life uncongenial, and he ultimately left the company.</p>
+      <p>On January 6, 2011, Swartz was arrested by MIT police on state breaking-and-entering charges, after systematically downloading academic journal articles from JSTOR. Federal prosecutors later charged him with two counts of wire fraud and 11 violations of the Computer Fraud and Abuse Act, carrying a cumulative maximum penalty of $1 million in fines, 35 years in prison, asset forfeiture, restitution and supervised release.</p>
 
-    <p>In September 2007, Swartz joined with Simon Carstensen to launch Jottit.</p>
+      <p>Swartz declined a plea bargain under which he would serve six months in federal prison. Two days after the prosecution rejected a counter-offer by Swartz, he was found dead in his Brooklyn, New York apartment, where he had hanged himself.</p>
 
-    <h3>Activism</h3>
-    <p>In 2008, Swartz founded Watchdog.net, "the good government site with teeth," to aggregate and visualize data about politicians. In the same year, he wrote a widely circulated Guerilla Open Access Manifesto.</p>
+      <p>In June 2013, Swartz was posthumously inducted into the Internet Hall of Fame. <a href="http://en.wikipedia.org/wiki/Aaron_Swartz">Wikipedia</a></p>
 
-    <p>In 2009, wanting to learn about effective activism, Swartz helped launch the Progressive Change Campaign Committee.[40] He wrote on his blog, "I spend my days experimenting with new ways to get progressive policies enacted and progressive politicians elected." Swartz led the first activism event of his career with the Progressive Change Campaign Committee, delivering thousands of "Honor Kennedy" petition signatures to Massachusetts legislators asking them to fulfill former Senator Ted Kennedy's last wish by appointing a senator to vote for health care reform.</p>
+    </aside>
 
-    <p>In 2010, Swartz co-founded Demand Progress, a political advocacy group that organizes people online to "take action by contacting Congress and other leaders, funding pressure tactics, and spreading the word" about civil liberties, government reform, and other issues.</p>
+    <article>
 
-    <p>During academic year 2010–11, Swartz conducted research studies on political corruption as a Lab Fellow in Harvard University's Edmond J. Safra Research Lab on Institutional Corruption.</p>
+      <h3>Background Info</h3>
 
-    <p>Author Cory Doctorow, in his novel, Homeland, "dr[ew] on advice from Swartz in setting out how his protagonist could use the information now available about voters to create a grass-roots anti-establishment political campaign." In an afterword to the novel, Swartz wrote, "these [political hacktivist] tools can be used by anyone motivated and talented enough.... Now it's up to you to change the system. ... Let me know if I can help."</p>
+      <p>Swartz was born in Chicago, Illinois, the eldest son of Jewish parents Susan and Robert Swartz. His father had founded the software firm Mark Williams Company. Swartz immersed himself in the study of computers, programming, the Internet, and Internet culture. He attended North Shore Country Day School, a small private school near Chicago, until 9th grade. Swartz left high school in the 10th grade, and enrolled in courses at a Chicago area college.</p>
 
-    <h3>SOPA</h3>
-    <p>Swartz was instrumental in the campaign to prevent passage of the Stop Online Piracy Act (SOPA), which sought to combat Internet copyright violations but was criticized on the basis that it would have made it easier for the U.S. government to shut down web sites accused of violating copyright and would have placed intolerable burdens on Internet providers. Following the defeat of the bill, Swartz was the keynote speaker at the F2C:Freedom to Connect 2012 event in Washington, D.C., on May 21, 2012. His speech was titled "How We Stopped SOPA" and he informed the audience:</p>
+      <p>At age 13, Swartz won an ArsDigita Prize, given to young people who create "useful, educational, and collaborative" noncommercial websites. At age 14, he became a member of the working group that authored the RSS 1.0 web syndication specification.</p>
 
-    <p><em>This bill ... shut down whole websites. Essentially, it stopped Americans from communicating entirely with certain groups....
-      I called all my friends, and we stayed up all night setting up a website for this new group, Demand Progress, with an online petition opposing this noxious bill.... We [got] ... 300,000 signers.... We met with the staff of members of Congress and pleaded with them.... And then it passed unanimously....
-      And then, suddenly, the process stopped. Senator Ron Wyden ... put a hold on the bill.</em></p>
+      <h3>W3C</h3>
+
+      <p>In 2001, Swartz joined the RDFCore working group at the World Wide Web Consortium (W3C), where he authored RFC 3870, Application/RDF+XML Media Type Registration. The document described a new media type, "RDF/XML", designed to support the Semantic Web.</p>
+
+      <h3>Markown</h3>
+
+      <p>Swartz was co-creator, with John Gruber, of Markdown, a simplified markup standard derived from HTML, and author of its html2text translator. Markdown remains in widespread use.</p>
+
+      <h3>Buisiness Ventures</h3>
+
+      <p>Swartz attended Stanford University. After the summer of his freshman year, he attended Y Combinator's first Summer Founders Program where he started the software company Infogami. Infogami's wiki platform was used to support the Internet Archive's Open Library project and the web.py web framework that Swartz had created, but he felt he needed co-founders to proceed further. Y-Combinator organizers suggested that Infogami merge with Reddit, which it did in November 2005. Reddit at first found it difficult to make money from the project, but the site later gained in popularity, with millions of users visiting it each month.</p>
+
+      <figure>
+        <img src="images/reddit.jpg" alt="Reddit Logo">
+        <figcaption>Reddit Logo</figcaption>
+      </figure>
+
+      <p>In October 2006, Reddit was acquired by Condé Nast Publications, the owner of Wired magazine. Swartz moved with his company to San Francisco to work on Wired. Swartz found office life uncongenial, and he ultimately left the company.</p>
+
+      <p>In September 2007, Swartz joined with Simon Carstensen to launch Jottit.</p>
+
+      <h3>Activism</h3>
+
+      <p>In 2008, Swartz founded Watchdog.net, "the good government site with teeth," to aggregate and visualize data about politicians. In the same year, he wrote a widely circulated Guerilla Open Access Manifesto.</p>
+
+      <p>In 2009, wanting to learn about effective activism, Swartz helped launch the Progressive Change Campaign Committee.[40] He wrote on his blog, "I spend my days experimenting with new ways to get progressive policies enacted and progressive politicians elected." Swartz led the first activism event of his career with the Progressive Change Campaign Committee, delivering thousands of "Honor Kennedy" petition signatures to Massachusetts legislators asking them to fulfill former Senator Ted Kennedy's last wish by appointing a senator to vote for health care reform.</p>
+
+      <p>In 2010, Swartz co-founded Demand Progress, a political advocacy group that organizes people online to "take action by contacting Congress and other leaders, funding pressure tactics, and spreading the word" about civil liberties, government reform, and other issues.</p>
+
+      <p>During academic year 2010–11, Swartz conducted research studies on political corruption as a Lab Fellow in Harvard University's Edmond J. Safra Research Lab on Institutional Corruption.</p>
+
+      <p>Author Cory Doctorow, in his novel, Homeland, "dr[ew] on advice from Swartz in setting out how his protagonist could use the information now available about voters to create a grass-roots anti-establishment political campaign." In an afterword to the novel, Swartz wrote, "these [political hacktivist] tools can be used by anyone motivated and talented enough.... Now it's up to you to change the system. ... Let me know if I can help."</p>
+
+      <h3>SOPA</h3>
+
+      <p>Swartz was instrumental in the campaign to prevent passage of the Stop Online Piracy Act (SOPA), which sought to combat Internet copyright violations but was criticized on the basis that it would have made it easier for the U.S. government to shut down web sites accused of violating copyright and would have placed intolerable burdens on Internet providers. Following the defeat of the bill, Swartz was the keynote speaker at the F2C:Freedom to Connect 2012 event in Washington, D.C., on May 21, 2012. His speech was titled "How We Stopped SOPA" and he informed the audience:</p>
+
+      <p><em>This bill ... shut down whole websites. Essentially, it stopped Americans from communicating entirely with certain groups.... I called all my friends, and we stayed up all night setting up a website for this new group, Demand Progress, with an online petition opposing this noxious bill.... We [got] ... 300,000 signers.... We met with the staff of members of Congress and pleaded with them.... And then it passed unanimously.... And then, suddenly, the process stopped. Senator Ron Wyden ... put a hold on the bill.</em></p>
 
       <p>He added, "We won this fight because everyone made themselves the hero of their own story. Everyone took it as their job to save this crucial freedom." He was referring to a series of protests against the bill by numerous websites that was described by the Electronic Frontier Foundation as the biggest in Internet history, with over 115,000 sites altering their webpages. Swartz also presented on this topic at an event organized by ThoughtWorks.</p>
 
       <h3>Wikipedia</h3>
+
       <p>Swartz volunteered as an editor at Wikipedia, and in 2006, he ran unsuccessfully for the Wikimedia Foundation's Board of Trustees. Also in 2006, Swartz wrote an analysis of how Wikipedia articles are written, and concluded that the bulk of the actual content comes from tens of thousands of occasional contributors, or "outsiders", each of whom may not make many other contributions to the site, while a core group of 500 to 1,000 regular editors tend to correct spelling and other formatting errors. According to Swartz: "the formatters aid the contributors, not the other way around."</p>
 
       <p>His conclusions, based on the analysis of edit histories of several randomly selected articles, contradicted the opinion of Wikipedia co-founder Jimmy Wales, who believed the core group of regular editors were providing most of the content while thousands of others contributed to formatting issues. Swartz came to his conclusions by counting the total number of characters added by an editor to a particular article—while Wales counted the total number of edits.</p>
 
       <h3>Tor2Web</h3>
+
       <p>In 2008, Swartz together with Virgil Griffith designed and implemented Tor2web, an HTTP proxy for Tor hidden services. The proxy was designed to allow easy access to Tor by means of a common browser.</p>
 
       <h3>Library of Congress</h3>
+
       <p>Around 2006, Swartz acquired the Library of Congress's complete bibliographic dataset: the library charged fees to access this, but as a government document, it was not copyright-protected within the USA. By posting the data on OpenLibrary, Swartz made it freely available. The Library of Congress project was met with approval by the Copyright Office.</p>
 
       <h3>JSTOR</h3>
+
       <p>According to state and federal authorities, Swartz used JSTOR, a digital repository, to download a large number of academic journal articles through MIT's computer network over the course of a few weeks in late 2010 and early 2011. At the time, Swartz was a research fellow at Harvard University, which provided him with a JSTOR account. Visitors to MIT's "open campus" were authorized to access JSTOR through its network.</p>
 
       <p>The authorities said Swartz downloaded the documents through a laptop connected to a networking switch in a controlled-access wiring closet at MIT. The door to the closet was kept unlocked, according to press reports.</p>
 
       <h3>Arrest</h3>
+
       <p>On the night of January 6, 2011, Swartz was arrested near the Harvard campus by MIT police and a U.S. Secret Service agent. He was arraigned in Cambridge District Court on two state charges of breaking and entering with intent to commit a felony.</p>
 
       <p>On July 11, 2011, Swartz was indicted by a federal grand jury on charges of wire fraud, computer fraud, unlawfully obtaining information from a protected computer and recklessly damaging a protected computer.</p>
@@ -114,6 +133,7 @@
       <p>After his death, federal prosecutors dropped the charges. On December 4, 2013, due to a Freedom of Information Act suit by the investigations editor of Wired magazine, several documents related to the case were released by the Secret Service, including a video of Swartz entering the MIT network closet. <a href="http://en.wikipedia.org/wiki/Aaron_Swartz">Wikipedia</a></p>
 
       <h3>Publications</h3>
+
       <ul>
         <li>Swartz, Aaron; Hendler, James (October 2001), "The Semantic Web: A network of content for the digital city", Proceedings of the Second Annual Digital Cities Workshop, Kyoto, JP: Blogspace.</li>
         <li>Swartz, Aaron (January–February 2002). "MusicBrainz: A Semantic Web service" (PDF). IEEE Intelligent Systems (UMBC) 17 (1): 76–77. doi:10.1109/5254.988466. ISSN 1541-1672</li>
@@ -125,9 +145,11 @@
         <li>Swartz, Aaron (Speaker) (May 21, 2012). Keynote address at Freedom To Connect 2012: How we stopped SOPA (Video). D.C.: YouTube.</li>
         <li>Swartz, Aaron (February 2013) [2009]. Aaron Swartz's A programmable Web: An unfinished work (open access publication - free to read PDF). San Francisco: Morgan & Claypool. Lay summary. "To Dan Connolly, who not only created the Web but found time to teach it to me."</li>
       </ul>
+
       <a href="http://en.wikipedia.org/wiki/Aaron_Swartz">Wikipedia</a>
 
       <h4>Aaron Swartz Memorial & Funeral Services</h4>
+
       <table>
         <tr>
           <th>Location</th>
@@ -160,18 +182,26 @@
           <td> - </td>
         </tr>
       </table>
+
       <a href="http://en.wikipedia.org/wiki/Aaron_Swartz">Wikipedia</a>
+
     </article>
 
-    <div class="source">
+    <footer>
+
       <p>All information was taken directly from the wikepedia articles, or Aaron Swartz' web site. None of the thoughts, opinions, or ideas on this document are mine, it was created purely for the purpose of practicing creating a HTML document with large amounts of content.</p>
       <h3>Works Cited</h3>
       <p><a href="http://www.takepart.com/internets-own-boy"><em>Aaron Swartz.</em> Digital image. <em>The Internets Own Boy.</em> N.p., n.d. Web. 2 Oct. 2014.</a></p>
       <p><a href="http://en.wikipedia.org/wiki/Aaron_Swartz">"Aaron Swartz." <em>Wikipedia.</em> Wikimedia Foundation, 10 Jan. 2014. Web. 02 Oct. 2014.</a></p>
       <p><a href="http://famouslogos.net/reddit-logo/"><em>Reddit Logo.</em> Digital image. N.p., n.d. Web. 2 Oct. 2014.</a></p>
       <p><a href="http://www.aaronsw.com/">Swartz, Aaron. "Aaron Swartz." <em>Aaron Swartz.</em> N.p., n.d. Web. 29 Sept. 2014.</a></p>
-    </div><!--source-->
+
+    </footer>
 
     <?php include "inc/footer.inc"; ?>
-  </body>
-  </html>
+
+  </div><!--container-->
+
+</body>
+
+</html>
