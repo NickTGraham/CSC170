@@ -19,4 +19,7 @@ Repo containing CSC 170 labs
 * Project 3 - Multipage website  
 * Lab 13 - Mobile Layout  
 * Lab 14 - Embedded Content  
+
+Now that class is complete code is being made public.  
+
 Nicholas Graham
